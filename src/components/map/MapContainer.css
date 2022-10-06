@@ -1,0 +1,29 @@
+#container {
+  padding: 0px;
+  width: 25vw;
+  border-radius: 1vw;
+}
+
+.map-all {
+  position: absolute;
+  left: 1vw;
+  top: 50vh;
+  border-radius: 1vw;
+}
+
+.map-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  background-color: #2c2c2c;
+  color: white;
+  height: 3vw;
+  width: 97%;
+  border-radius: 1vw 1vw 0 0;
+  padding-left: 3%;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

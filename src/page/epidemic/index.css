@@ -1,0 +1,66 @@
+.cv-tips {
+  background-color: #ffe4e1;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  border-color: red;
+  border-style: solid;
+  border-width: 0.05vw;
+}
+
+.cv-tips-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5vw;
+}
+
+.cv-tip {
+  margin-bottom: 0.5vw;
+  color: #696969;
+}
+
+.hidden-box {
+  display: none;
+}
+
+.level-title {
+  display: flex;
+  background-color: #e8e8e8;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  height: 2.5vw;
+  align-content: center;
+  font-weight: 500;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  padding: 0.5vw 0;
+  padding-left: 1vw;
+  border-left-style: solid;
+  border-left-width: 0.5vw;
+  border-color: gray;
+  transition: 0.2s;
+}
+
+.level-title:hover {
+  font-size: 1.8vw;
+}
+
+.place {
+  display: inline-block;
+  height: 2.5vw;
+  width: 30vw;
+  margin-bottom: 0.5vw;
+  margin-right: 3vw;
+  margin-left: 1vw;
+  border-radius: 5vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.1s;
+  text-align: center;
+  line-height: 2.5vw;
+}
+
+.place:hover {
+  background-color: #808080;
+  color: white;
+}

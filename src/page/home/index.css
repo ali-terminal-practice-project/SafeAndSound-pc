@@ -1,0 +1,109 @@
+.home {
+  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+}
+
+.search {
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.tips {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 5vw;
+  font-weight: 900;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 0.05vw rgb(0, 0, 0);
+}
+
+.flex-box {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper {
+  width: 30vw;
+  height: 8vw;
+  background-color: #fff;
+  padding: 1.5vw;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0.1vw;
+}
+
+.wrapper .input-data {
+  position: relative;
+  margin: 1vw 0 0 0;
+  width: 30vw;
+  height: 3vw;
+}
+
+.wrapper .input-data input {
+  outline: none;
+  border: 0px;
+  width: 29.7vw;
+  height: 2.7vw;
+  border: none;
+  font-size: 2vw;
+  border-bottom: 2px solid #c0c0c0;
+}
+
+.wrapper .input-data input:focus ~ label,
+.wrapper .input-data input:valid ~ label {
+  transform: translateY(-2.5vw);
+  font-size: 1vw;
+  color: #2c6fdb;
+}
+
+.wrapper .input-data label {
+  font-size: 1.5vw;
+  position: absolute;
+  bottom: 0.5vw;
+  left: 0px;
+  color: #808080;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data .underline {
+  position: absolute;
+  bottom: 0px;
+  height: 3px;
+  width: 100%;
+  background-color: #2c6fdb;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data input:focus ~ .underline,
+.wrapper .input-data input:valid ~ .underline {
+  transform: scaleX(1);
+}
+
+.btn-search {
+  margin: 1vw 0;
+  border: none;
+  border-radius: 8px;
+  height: 100%;
+  width: 30vw;
+  background: #2c2c2c;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-search:hover {
+  background-color: #ffffff;
+  color: #797979;
+}
