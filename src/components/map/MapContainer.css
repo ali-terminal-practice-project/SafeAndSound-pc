@@ -13,6 +13,7 @@
 
 .map-title {
   position: absolute;
+  top: -0.5vw;
   display: flex;
   align-items: center;
   z-index: 999;

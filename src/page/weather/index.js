@@ -9,7 +9,27 @@ const Weather = () => {
   const city = params.get('city')
   const cityNum = params.get('cityNum')
   const [weather, setWeather] = useState({})
+  const [weather2, setWeather2] = useState({})
   const [lifeNum, setLifeNum] = useState([])
+  const [local, setLocal] = useState('')
+
+  useEffect(() => {
+    navigator.geolocation.getCurrentPosition(success)
+  }, [])
+
+  const success = (pos) => {
+    const getDate = async () => {
+      const crd = pos.coords
+      const la = crd.latitude.toFixed(2)
+      const long = crd.longitude.toFixed(2)
+      // console.log(la)
+      // console.log(long)
+      const res = await axios(`https://geoapi.qweather.com/v2/city/lookup?key=c84b6b2163c54e858f5358d77327ccc5&location=${long},${la}&range=cn`)
+      setLocal(res.data.location[0].name)
+      // console.log(res)
+    }
+    getDate()
+  }
 
   useEffect(() => {
     const getData = async () => {
@@ -22,49 +42,106 @@ const Weather = () => {
     getData()
   }, [cityNum])
 
+  useEffect(() => {
+    const getData = async () => {
+      const res1 = await axios(`https://www.yiketianqi.com/free/day?appid=36374132&appsecret=JYU4GOcq&unescape=1&vue=1&city=${local}`)
+      setWeather2(res1.data)
+    }
+    getData()
+  }, [cityNum])
+
   return (
-    <div>
-      <div className="title-box">
-        {city}的天气状况
+    <div className="weather-all">
+      <div className="weather-com">
+        <div className="title-box">
+          {local}的天气状况
+        </div>
+        <div className="weather-content">
+          <div>
+            截止最后更新时间：{weather2.update_time}，{city}的天气状况为：
+          </div>
+          <div className="weather-type">
+            天气：{weather2.wea}
+          </div>
+          <div className="weather-type">
+            <div>
+              实时温度：{weather2.tem}
+            </div>
+            <div>
+              白天温度：{weather2.tem_day}
+            </div>
+            <div>
+              晚上温度：{weather2.tem_night}
+            </div>
+          </div>
+          <div className="weather-type">
+            <div>
+              风向：{weather2.win}
+            </div>
+            <div>
+              风速：{weather2.win_meter}
+            </div>
+            <div>
+              风强: {weather2.win_speed}
+            </div>
+          </div>
+          <div className="weather-type">
+            <div>
+              空气质量：{weather2.air}
+            </div>
+            <div>
+              湿度：{weather2.humidity}
+            </div>
+            <div>
+              气压：{weather2.pressure}
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="weather-content">
-        <div>
-          截止最后更新时间：{weather.update_time}，{city}的天气状况为：
+
+      <div className="weather-com">
+        <div className="title-box">
+          {city}的天气状况
         </div>
-        <div className="weather-type">
-          天气：{weather.wea}
-        </div>
-        <div className="weather-type">
+        <div className="weather-content">
           <div>
-            实时温度：{weather.tem}
+            截止最后更新时间：{weather.update_time}，{city}的天气状况为：
           </div>
-          <div>
-            白天温度：{weather.tem_day}
+          <div className="weather-type">
+            天气：{weather.wea}
           </div>
-          <div>
-            晚上温度：{weather.tem_night}
+          <div className="weather-type">
+            <div>
+              实时温度：{weather.tem}
+            </div>
+            <div>
+              白天温度：{weather.tem_day}
+            </div>
+            <div>
+              晚上温度：{weather.tem_night}
+            </div>
           </div>
-        </div>
-        <div className="weather-type">
-          <div>
-            风向：{weather.win}
+          <div className="weather-type">
+            <div>
+              风向：{weather.win}
+            </div>
+            <div>
+              风速：{weather.win_meter}
+            </div>
+            <div>
+              风强: {weather.win_speed}
+            </div>
           </div>
-          <div>
-            风速：{weather.win_meter}
-          </div>
-          <div>
-            风强: {weather.win_speed}
-          </div>
-        </div>
-        <div className="weather-type">
-          <div>
-            空气质量：{weather.air}
-          </div>
-          <div>
-            湿度：{weather.humidity}
-          </div>
-          <div>
-            气压：{weather.pressure}
+          <div className="weather-type">
+            <div>
+              空气质量：{weather.air}
+            </div>
+            <div>
+              湿度：{weather.humidity}
+            </div>
+            <div>
+              气压：{weather.pressure}
+            </div>
           </div>
         </div>
       </div>

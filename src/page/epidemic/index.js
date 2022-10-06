@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useSearchParams } from "react-router-dom"
 import MapComponent from "../../components/map/MapContainer"
 import './index.css'
+import cityNumList from './city-num.json'
 
 const Epidemic = () => {
   // =====================变量申明======================
@@ -10,7 +11,7 @@ const Epidemic = () => {
   const [params] = useSearchParams()
   const city = params.get('city')
   // 设置focus
-  const [focus, setFocus] = useState('')
+  const [focus, setFocus] = useState('点击地点查看其所在位置')
   // 获取风险地区名单
   const [highList, setHighList] = useState([])
   const [middleList, setMiddleList] = useState([])
@@ -21,6 +22,8 @@ const Epidemic = () => {
   const [low, setLow] = useState([])
   // 设置聚焦地点坐标
   const [position, setPosition] = useState([])
+  // 设置城市代码
+  const [cityNum, setCityNum] = useState([])
 
   // 请求获取所有风险地区名单
   useEffect(() => {
