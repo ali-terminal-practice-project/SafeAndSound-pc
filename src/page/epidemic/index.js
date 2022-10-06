@@ -5,7 +5,7 @@ import MapComponent from "../../components/map/MapContainer"
 import './index.css'
 
 const Epidemic = () => {
-  // =====================变量申明=======================
+  // =====================变量申明======================
   // 继承父组件传入的city城市名字参数
   const [params] = useSearchParams()
   const city = params.get('city')
