@@ -21,7 +21,7 @@ class MapComponent extends Component {
       this.map = new AMap.Map("container", {
         viewMode: "3D",
         zoom: 4,
-        center: [113.357224, 34.977186],
+        center: [119.74929875, 35.69405665],
       })
     }).catch(e => {
       console.log(e)

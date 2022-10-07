@@ -1,25 +1,33 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Cascader } from 'antd'
 import Header from '../../components/header'
 import './index.css'
+import cityNumList from './city-num.json'
 
 const Home = () => {
   const navigate = useNavigate()
 
   const [city, setCity] = useState('')
+  const [cityNum, setCityNum] = useState(0)
+  const [detail, setDetail] = useState('')
 
   const goToQuery = () => {
-    navigate(`/query?city=${city}`)
-  }
-
-  const changeHandler = (e) => {
-    setCity(e.target.value)
+    navigate(`/query?city=${city}&cityNum=${cityNum}&detail=${detail}`)
   }
 
   const keyHandler = (e) => {
     if (e.keyCode === 13) {
-      navigate(`/query?city=${city}`)
+      navigate(`/query?city=${city}&cityNum=${cityNum}&detail=${detail}`)
     }
+  }
+
+  const options = cityNumList.data
+  const onChange = (value, selectedOptions) => {
+    console.log(value, selectedOptions)
+    setCity(value[0])
+    setDetail(value[1])
+    setCityNum(selectedOptions[1].city_id)
   }
 
   return (
@@ -30,14 +38,17 @@ const Home = () => {
           <div className="tips"></div>
           <div className="wrapper">
             <div className="input-data">
-              <input type="text"
-                className="city-name-search"
-                required
-                value={city}
+              <Cascader
+                size='large'
+                className='select-box'
+                fieldNames={{ label: 'city', value: 'city', children: 'cities' }}
+                options={options}
+                onChange={onChange}
+                placeholder="请选择你要去往的城市吧"
+                onSearch={(value) => console.log(value)}
                 onKeyUp={keyHandler}
-                onChange={changeHandler} />
+              />
               <div className="underline"></div>
-              <label>输入想要查询的城市吧</label>
               <button className="btn-search" onClick={goToQuery}>查询</button>
             </div>
           </div>

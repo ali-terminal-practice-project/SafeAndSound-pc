@@ -2,14 +2,15 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { useSearchParams } from "react-router-dom"
 import MapComponent from "../../components/map/MapContainer"
+import { Segmented } from 'antd'
 import './index.css'
-import cityNumList from './city-num.json'
 
 const Epidemic = () => {
   // =====================变量申明======================
   // 继承父组件传入的city城市名字参数
   const [params] = useSearchParams()
   const city = params.get('city')
+  const cityNum = params.get('cityNum')
   // 设置focus
   const [focus, setFocus] = useState('点击地点查看其所在位置')
   // 获取风险地区名单
@@ -22,8 +23,22 @@ const Epidemic = () => {
   const [low, setLow] = useState([])
   // 设置聚焦地点坐标
   const [position, setPosition] = useState([])
-  // 设置城市代码
-  const [cityNum, setCityNum] = useState([])
+  // 设置防疫政策
+  const [msgIn, setMsgIn] = useState('')
+  const [msgOut, setMsgOut] = useState('')
+  // 设置flag
+  const [flag, setFlag] = useState(1)
+
+  // 请求获取防疫政策
+  useEffect(() => {
+    const getData = async () => {
+      const data = await axios(`https://v2.alapi.cn/api/springTravel/query?token=VcrdLKTIjfO93PYw&from=10020&to=${cityNum}`)
+      console.log(data)
+      setMsgIn(data.data.data.to_info.low_in_desc)
+      setMsgOut(data.data.data.to_info.out_desc)
+    }
+    getData()
+  }, [focus])
 
   // 请求获取所有风险地区名单
   useEffect(() => {
@@ -48,7 +63,7 @@ const Epidemic = () => {
   // 获取搜索城市的高风险地区
   useEffect(() => {
     highList.forEach((item) => {
-      if (item.province === city || item.city === city) {
+      if (item.province === city || item.city === city || item.province.substr(0, item.province.length - 1) === city || item.city.substr(0, item.city.length - 1) === city) {
         item.communitys.forEach((str) => {
           setHigh(highList => ([...highList, str]))
         })
@@ -59,7 +74,7 @@ const Epidemic = () => {
   // 获取搜索城市的中风险地区
   useEffect(() => {
     middleList.forEach((item) => {
-      if (item.province === city || item.city === city) {
+      if (item.province === city || item.city === city || item.province.substr(0, item.province.length - 1) === city || item.city.substr(0, item.city.length - 1) === city) {
         item.communitys.forEach((str) => {
           setMiddle(middleList => ([...middleList, str]))
         })
@@ -70,7 +85,7 @@ const Epidemic = () => {
   // 获取搜索城市的低风险地区
   useEffect(() => {
     lowList.forEach((item) => {
-      if (item.province === city || item.city === city) {
+      if (item.province === city || item.city === city || item.province.substr(0, item.province.length - 1) === city || item.city.substr(0, item.city.length - 1) === city) {
         item.communitys.forEach((str) => {
           setLow(lowList => ([...lowList, str]))
         })
@@ -85,20 +100,12 @@ const Epidemic = () => {
         <div className="cv-tips-title">
           ❗️针对各风险地区的出入防疫政策:
         </div>
-        <div className="cv-tip">
-          （1）对7天内有高风险区旅居史的入长返长人员，赋红码，实施7天集中隔离医学观察措施，在第1、2、3、5、7天各开展一次核酸检测。
+        <Segmented options={['进入政策', '离开政策']} onChange={() => setFlag(!flag)} />
+        <div className={flag ? "plc-box" : 'hidden-box'}>
+          {msgIn}
         </div>
-        <div className="cv-tip">
-          （2）对7天内有中风险区旅居史的入长返长人员，赋黄码，实施7天居家隔离医学观察措施，在第1、4、7天各开展一次核酸检测。
-        </div>
-        <div className="cv-tip">
-          （3）对7天内有低风险区旅居史的入长返长人员，经研判，可参照中风险区旅居史人员防控要求采取相应措施。
-        </div>
-        <div className="cv-tip">
-          （4）对7天内有重点涉疫地区旅居史的入长返长人员，参照中风险区旅居史人员防控要求采取相应措施（其中高、中风险区的执行我市既定的高、中风险区人员分类管控措施）。
-        </div>
-        <div className="cv-tip">
-          （5）对入境人员，严格实施“7天集中隔离医学观察+3天居家健康监测”管控措施。集中隔离医学观察的第1、2、3、5、7天各开展一次核酸检测，解除集中隔离后，落实点对点闭环管理，实施居家健康监测，并于居家健康监测的第3天开展一次核酸检测。
+        <div className={!flag ? "plc-box" : 'hidden-box'}>
+          {msgOut}
         </div>
       </div>
       {/* 高风险区域 */}

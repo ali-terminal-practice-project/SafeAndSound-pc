@@ -14,8 +14,8 @@
 }
 
 .next-place {
-  width: 23vw;
-  height: 6vw;
+  width: 25vw;
+  height: 8.5vw;
   background-color: #2e8b57;
   color: white;
   font-size: 1.5rem;
@@ -61,8 +61,8 @@
 .watch {
   background-color: white;
   margin: 1vw 0 0 0;
-  height: 82.5vh;
-  width: 68vw;
+  height: 90vh;
+  width: 72vw;
   border-radius: 0.5vw;
   overflow: auto;
   padding: 2vw;

@@ -3,2004 +3,2004 @@
   "msg": "success",
   "data": [
     {
-      "province_id": 1,
-      "province": "安徽",
+      "hhid": 1,
+      "city": "安徽",
       "cities": [
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10001,
           "city": "合肥"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10002,
           "city": "芜湖"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10003,
           "city": "蚌埠"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10004,
           "city": "淮南"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10005,
           "city": "马鞍山"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10006,
           "city": "淮北"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10007,
           "city": "铜陵"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10008,
           "city": "安庆"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10009,
           "city": "黄山"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10010,
           "city": "滁州"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10011,
           "city": "阜阳"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10012,
           "city": "宿州"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10013,
           "city": "六安"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10014,
           "city": "亳州"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10015,
           "city": "池州"
         },
         {
-          "province_id": 1,
+          "hhid": 1,
           "city_id": 10016,
           "city": "宣城"
         }
       ]
     },
     {
-      "province_id": 2,
-      "province": "北京",
+      "hhid": 2,
+      "city": "北京",
       "cities": [
         {
-          "province_id": 2,
+          "hhid": 2,
           "city_id": 10017,
           "city": "北京"
         }
       ]
     },
     {
-      "province_id": 3,
-      "province": "重庆",
+      "hhid": 3,
+      "city": "重庆",
       "cities": [
         {
-          "province_id": 3,
+          "hhid": 3,
           "city_id": 10018,
           "city": "重庆"
         }
       ]
     },
     {
-      "province_id": 4,
-      "province": "福建",
+      "hhid": 4,
+      "city": "福建",
       "cities": [
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10019,
           "city": "福州"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10020,
           "city": "厦门"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10021,
           "city": "莆田"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10022,
           "city": "三明"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10023,
           "city": "泉州"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10024,
           "city": "漳州"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10025,
           "city": "南平"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10026,
           "city": "龙岩"
         },
         {
-          "province_id": 4,
+          "hhid": 4,
           "city_id": 10027,
           "city": "宁德"
         }
       ]
     },
     {
-      "province_id": 5,
-      "province": "广东",
+      "hhid": 5,
+      "city": "广东",
       "cities": [
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10028,
           "city": "广州"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10029,
           "city": "韶关"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10030,
           "city": "深圳"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10031,
           "city": "珠海"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10032,
           "city": "汕头"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10033,
           "city": "佛山"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10034,
           "city": "江门"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10035,
           "city": "湛江"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10036,
           "city": "茂名"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10037,
           "city": "肇庆"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10038,
           "city": "惠州"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10039,
           "city": "梅州"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10040,
           "city": "汕尾"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10041,
           "city": "河源"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10042,
           "city": "阳江"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10043,
           "city": "清远"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10044,
           "city": "东莞"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10045,
           "city": "中山"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10046,
           "city": "潮州"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10047,
           "city": "揭阳"
         },
         {
-          "province_id": 5,
+          "hhid": 5,
           "city_id": 10048,
           "city": "云浮"
         }
       ]
     },
     {
-      "province_id": 6,
-      "province": "甘肃",
+      "hhid": 6,
+      "city": "甘肃",
       "cities": [
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10049,
           "city": "兰州"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10050,
           "city": "嘉峪关"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10051,
           "city": "金昌"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10052,
           "city": "白银"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10053,
           "city": "天水"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10054,
           "city": "武威"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10055,
           "city": "张掖"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10056,
           "city": "平凉"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10057,
           "city": "酒泉"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10058,
           "city": "庆阳"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10059,
           "city": "定西"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10060,
           "city": "陇南"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10061,
           "city": "临夏"
         },
         {
-          "province_id": 6,
+          "hhid": 6,
           "city_id": 10062,
           "city": "甘南"
         }
       ]
     },
     {
-      "province_id": 7,
-      "province": "广西",
+      "hhid": 7,
+      "city": "广西",
       "cities": [
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10063,
           "city": "南宁"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10064,
           "city": "柳州"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10065,
           "city": "桂林"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10066,
           "city": "梧州"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10067,
           "city": "北海"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10068,
           "city": "防城港"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10069,
           "city": "钦州"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10070,
           "city": "贵港"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10071,
           "city": "玉林"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10072,
           "city": "百色"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10073,
           "city": "贺州"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10074,
           "city": "河池"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10075,
           "city": "来宾"
         },
         {
-          "province_id": 7,
+          "hhid": 7,
           "city_id": 10076,
           "city": "崇左"
         }
       ]
     },
     {
-      "province_id": 8,
-      "province": "贵州",
+      "hhid": 8,
+      "city": "贵州",
       "cities": [
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10077,
           "city": "贵阳"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10078,
           "city": "六盘水"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10079,
           "city": "遵义"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10080,
           "city": "安顺"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10081,
           "city": "毕节"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10082,
           "city": "铜仁"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10083,
           "city": "黔西南"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10084,
           "city": "黔东南"
         },
         {
-          "province_id": 8,
+          "hhid": 8,
           "city_id": 10085,
           "city": "黔南"
         }
       ]
     },
     {
-      "province_id": 9,
-      "province": "河北",
+      "hhid": 9,
+      "city": "河北",
       "cities": [
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10086,
           "city": "石家庄"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10087,
           "city": "唐山"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10088,
           "city": "秦皇岛"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10089,
           "city": "邯郸"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10090,
           "city": "邢台"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10091,
           "city": "保定"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10092,
           "city": "张家口"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10093,
           "city": "承德"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10094,
           "city": "沧州"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10095,
           "city": "廊坊"
         },
         {
-          "province_id": 9,
+          "hhid": 9,
           "city_id": 10096,
           "city": "衡水"
         }
       ]
     },
     {
-      "province_id": 10,
-      "province": "湖北",
+      "hhid": 10,
+      "city": "湖北",
       "cities": [
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10097,
           "city": "武汉"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10098,
           "city": "黄石"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10099,
           "city": "十堰"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10100,
           "city": "宜昌"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10101,
           "city": "襄阳"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10102,
           "city": "鄂州"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10103,
           "city": "荆门"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10104,
           "city": "孝感"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10105,
           "city": "荆州"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10106,
           "city": "黄冈"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10107,
           "city": "咸宁"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10108,
           "city": "随州"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10109,
           "city": "恩施"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10110,
           "city": "仙桃"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10111,
           "city": "潜江"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10112,
           "city": "天门"
         },
         {
-          "province_id": 10,
+          "hhid": 10,
           "city_id": 10113,
           "city": "神农架"
         }
       ]
     },
     {
-      "province_id": 11,
-      "province": "黑龙江",
+      "hhid": 11,
+      "city": "黑龙江",
       "cities": [
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10114,
           "city": "哈尔滨"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10115,
           "city": "齐齐哈尔"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10116,
           "city": "鸡西"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10117,
           "city": "鹤岗"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10118,
           "city": "双鸭山"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10119,
           "city": "大庆"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10120,
           "city": "伊春"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10121,
           "city": "佳木斯"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10122,
           "city": "七台河"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10123,
           "city": "牡丹江"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10124,
           "city": "黑河"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10125,
           "city": "绥化"
         },
         {
-          "province_id": 11,
+          "hhid": 11,
           "city_id": 10126,
           "city": "大兴安岭"
         }
       ]
     },
     {
-      "province_id": 12,
-      "province": "海南",
+      "hhid": 12,
+      "city": "海南",
       "cities": [
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10127,
           "city": "海口"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10128,
           "city": "三亚"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10129,
           "city": "三沙"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10130,
           "city": "儋州"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10131,
           "city": "五指山"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10132,
           "city": "琼海"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10133,
           "city": "文昌"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10134,
           "city": "万宁"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10135,
           "city": "东方"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10136,
           "city": "定安"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10137,
           "city": "屯昌"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10138,
           "city": "澄迈"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10139,
           "city": "临高"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10140,
           "city": "白沙"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10141,
           "city": "昌江"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10142,
           "city": "乐东"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10143,
           "city": "陵水"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10144,
           "city": "保亭"
         },
         {
-          "province_id": 12,
+          "hhid": 12,
           "city_id": 10145,
           "city": "琼中"
         }
       ]
     },
     {
-      "province_id": 13,
-      "province": "河南",
+      "hhid": 13,
+      "city": "河南",
       "cities": [
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10146,
           "city": "郑州"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10147,
           "city": "开封"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10148,
           "city": "洛阳"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10149,
           "city": "平顶山"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10150,
           "city": "安阳"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10151,
           "city": "鹤壁"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10152,
           "city": "新乡"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10153,
           "city": "焦作"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10154,
           "city": "濮阳"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10155,
           "city": "许昌"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10156,
           "city": "漯河"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10157,
           "city": "三门峡"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10158,
           "city": "南阳"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10159,
           "city": "商丘"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10160,
           "city": "信阳"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10161,
           "city": "周口"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10162,
           "city": "驻马店"
         },
         {
-          "province_id": 13,
+          "hhid": 13,
           "city_id": 10163,
           "city": "济源"
         }
       ]
     },
     {
-      "province_id": 14,
-      "province": "湖南",
+      "hhid": 14,
+      "city": "湖南",
       "cities": [
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10164,
           "city": "长沙"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10165,
           "city": "株洲"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10166,
           "city": "湘潭"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10167,
           "city": "衡阳"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10168,
           "city": "邵阳"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10169,
           "city": "岳阳"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10170,
           "city": "常德"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10171,
           "city": "张家界"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10172,
           "city": "益阳"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10173,
           "city": "郴州"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10174,
           "city": "永州"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10175,
           "city": "怀化"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10176,
           "city": "娄底"
         },
         {
-          "province_id": 14,
+          "hhid": 14,
           "city_id": 10177,
           "city": "湘西"
         }
       ]
     },
     {
-      "province_id": 15,
-      "province": "吉林",
+      "hhid": 15,
+      "city": "吉林",
       "cities": [
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10178,
           "city": "长春"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10179,
           "city": "吉林"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10180,
           "city": "四平"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10181,
           "city": "辽源"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10182,
           "city": "通化"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10183,
           "city": "白山"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10184,
           "city": "松原"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10185,
           "city": "白城"
         },
         {
-          "province_id": 15,
+          "hhid": 15,
           "city_id": 10186,
           "city": "延边"
         }
       ]
     },
     {
-      "province_id": 16,
-      "province": "江苏",
+      "hhid": 16,
+      "city": "江苏",
       "cities": [
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10187,
           "city": "南京"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10188,
           "city": "无锡"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10189,
           "city": "徐州"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10190,
           "city": "常州"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10191,
           "city": "苏州"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10192,
           "city": "南通"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10193,
           "city": "连云港"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10194,
           "city": "淮安"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10195,
           "city": "盐城"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10196,
           "city": "扬州"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10197,
           "city": "镇江"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10198,
           "city": "泰州"
         },
         {
-          "province_id": 16,
+          "hhid": 16,
           "city_id": 10199,
           "city": "宿迁"
         }
       ]
     },
     {
-      "province_id": 17,
-      "province": "江西",
+      "hhid": 17,
+      "city": "江西",
       "cities": [
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10200,
           "city": "南昌"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10201,
           "city": "景德镇"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10202,
           "city": "萍乡"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10203,
           "city": "九江"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10204,
           "city": "新余"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10205,
           "city": "鹰潭"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10206,
           "city": "赣州"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10207,
           "city": "吉安"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10208,
           "city": "宜春"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10209,
           "city": "抚州"
         },
         {
-          "province_id": 17,
+          "hhid": 17,
           "city_id": 10210,
           "city": "上饶"
         }
       ]
     },
     {
-      "province_id": 18,
-      "province": "辽宁",
+      "hhid": 18,
+      "city": "辽宁",
       "cities": [
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10211,
           "city": "沈阳"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10212,
           "city": "大连"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10213,
           "city": "鞍山"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10214,
           "city": "抚顺"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10215,
           "city": "本溪"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10216,
           "city": "丹东"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10217,
           "city": "锦州"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10218,
           "city": "营口"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10219,
           "city": "阜新"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10220,
           "city": "辽阳"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10221,
           "city": "盘锦"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10222,
           "city": "铁岭"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10223,
           "city": "朝阳"
         },
         {
-          "province_id": 18,
+          "hhid": 18,
           "city_id": 10224,
           "city": "葫芦岛"
         }
       ]
     },
     {
-      "province_id": 19,
-      "province": "内蒙古",
+      "hhid": 19,
+      "city": "内蒙古",
       "cities": [
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10225,
           "city": "呼和浩特"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10226,
           "city": "包头"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10227,
           "city": "乌海"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10228,
           "city": "赤峰"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10229,
           "city": "通辽"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10230,
           "city": "鄂尔多斯"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10231,
           "city": "呼伦贝尔"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10232,
           "city": "巴彦淖尔"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10233,
           "city": "乌兰察布"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10234,
           "city": "兴安"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10235,
           "city": "锡林郭勒"
         },
         {
-          "province_id": 19,
+          "hhid": 19,
           "city_id": 10236,
           "city": "阿拉善"
         }
       ]
     },
     {
-      "province_id": 20,
-      "province": "宁夏",
+      "hhid": 20,
+      "city": "宁夏",
       "cities": [
         {
-          "province_id": 20,
+          "hhid": 20,
           "city_id": 10237,
           "city": "银川"
         },
         {
-          "province_id": 20,
+          "hhid": 20,
           "city_id": 10238,
           "city": "石嘴山"
         },
         {
-          "province_id": 20,
+          "hhid": 20,
           "city_id": 10239,
           "city": "吴忠"
         },
         {
-          "province_id": 20,
+          "hhid": 20,
           "city_id": 10240,
           "city": "固原"
         },
         {
-          "province_id": 20,
+          "hhid": 20,
           "city_id": 10241,
           "city": "中卫"
         }
       ]
     },
     {
-      "province_id": 21,
-      "province": "青海",
+      "hhid": 21,
+      "city": "青海",
       "cities": [
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10242,
           "city": "西宁"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10243,
           "city": "海东"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10244,
           "city": "海北"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10245,
           "city": "黄南"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10246,
           "city": "海南"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10247,
           "city": "果洛"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10248,
           "city": "玉树"
         },
         {
-          "province_id": 21,
+          "hhid": 21,
           "city_id": 10249,
           "city": "海西"
         }
       ]
     },
     {
-      "province_id": 22,
-      "province": "四川",
+      "hhid": 22,
+      "city": "四川",
       "cities": [
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10250,
           "city": "成都"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10251,
           "city": "自贡"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10252,
           "city": "攀枝花"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10253,
           "city": "泸州"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10254,
           "city": "德阳"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10255,
           "city": "绵阳"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10256,
           "city": "广元"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10257,
           "city": "遂宁"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10258,
           "city": "内江"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10259,
           "city": "乐山"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10260,
           "city": "南充"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10261,
           "city": "眉山"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10262,
           "city": "宜宾"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10263,
           "city": "广安"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10264,
           "city": "达州"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10265,
           "city": "雅安"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10266,
           "city": "巴中"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10267,
           "city": "资阳"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10268,
           "city": "阿坝"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10269,
           "city": "甘孜"
         },
         {
-          "province_id": 22,
+          "hhid": 22,
           "city_id": 10270,
           "city": "凉山"
         }
       ]
     },
     {
-      "province_id": 23,
-      "province": "山东",
+      "hhid": 23,
+      "city": "山东",
       "cities": [
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10271,
           "city": "济南"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10272,
           "city": "青岛"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10273,
           "city": "淄博"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10274,
           "city": "枣庄"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10275,
           "city": "东营"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10276,
           "city": "烟台"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10277,
           "city": "潍坊"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10278,
           "city": "济宁"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10279,
           "city": "泰安"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10280,
           "city": "威海"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10281,
           "city": "日照"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10282,
           "city": "临沂"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10283,
           "city": "德州"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10284,
           "city": "聊城"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10285,
           "city": "滨州"
         },
         {
-          "province_id": 23,
+          "hhid": 23,
           "city_id": 10286,
           "city": "菏泽"
         }
       ]
     },
     {
-      "province_id": 24,
-      "province": "上海",
+      "hhid": 24,
+      "city": "上海",
       "cities": [
         {
-          "province_id": 24,
+          "hhid": 24,
           "city_id": 10287,
           "city": "上海"
         }
       ]
     },
     {
-      "province_id": 25,
-      "province": "山西",
+      "hhid": 25,
+      "city": "山西",
       "cities": [
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10288,
           "city": "太原"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10289,
           "city": "大同"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10290,
           "city": "阳泉"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10291,
           "city": "长治"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10292,
           "city": "晋城"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10293,
           "city": "朔州"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10294,
           "city": "晋中"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10295,
           "city": "运城"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10296,
           "city": "忻州"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10297,
           "city": "临汾"
         },
         {
-          "province_id": 25,
+          "hhid": 25,
           "city_id": 10298,
           "city": "吕梁"
         }
       ]
     },
     {
-      "province_id": 26,
-      "province": "陕西",
+      "hhid": 26,
+      "city": "陕西",
       "cities": [
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10299,
           "city": "西安"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10300,
           "city": "铜川"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10301,
           "city": "宝鸡"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10302,
           "city": "咸阳"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10303,
           "city": "渭南"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10304,
           "city": "延安"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10305,
           "city": "汉中"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10306,
           "city": "榆林"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10307,
           "city": "安康"
         },
         {
-          "province_id": 26,
+          "hhid": 26,
           "city_id": 10308,
           "city": "商洛"
         }
       ]
     },
     {
-      "province_id": 27,
-      "province": "天津",
+      "hhid": 27,
+      "city": "天津",
       "cities": [
         {
-          "province_id": 27,
+          "hhid": 27,
           "city_id": 10309,
           "city": "天津"
         }
       ]
     },
     {
-      "province_id": 28,
-      "province": "新疆",
+      "hhid": 28,
+      "city": "新疆",
       "cities": [
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10310,
           "city": "乌鲁木齐"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10311,
           "city": "克拉玛依"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10312,
           "city": "吐鲁番"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10313,
           "city": "哈密"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10314,
           "city": "昌吉"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10315,
           "city": "博尔塔拉"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10316,
           "city": "巴音郭楞"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10317,
           "city": "阿克苏"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10318,
           "city": "克孜勒苏"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10319,
           "city": "喀什"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10320,
           "city": "和田"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10321,
           "city": "伊犁"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10322,
           "city": "塔城"
         },
         {
-          "province_id": 28,
+          "hhid": 28,
           "city_id": 10323,
           "city": "阿勒泰"
         }
       ]
     },
     {
-      "province_id": 29,
-      "province": "西藏",
+      "hhid": 29,
+      "city": "西藏",
       "cities": [
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10324,
           "city": "拉萨"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10325,
           "city": "日喀则"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10326,
           "city": "昌都"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10327,
           "city": "林芝"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10328,
           "city": "山南"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10329,
           "city": "那曲"
         },
         {
-          "province_id": 29,
+          "hhid": 29,
           "city_id": 10330,
           "city": "阿里"
         }
       ]
     },
     {
-      "province_id": 30,
-      "province": "云南",
+      "hhid": 30,
+      "city": "云南",
       "cities": [
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10331,
           "city": "昆明"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10332,
           "city": "曲靖"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10333,
           "city": "玉溪"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10334,
           "city": "保山"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10335,
           "city": "昭通"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10336,
           "city": "丽江"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10337,
           "city": "普洱"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10338,
           "city": "临沧"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10339,
           "city": "楚雄"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10340,
           "city": "红河"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10341,
           "city": "文山"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10342,
           "city": "西双版纳"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10343,
           "city": "大理"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10344,
           "city": "德宏"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10345,
           "city": "怒江"
         },
         {
-          "province_id": 30,
+          "hhid": 30,
           "city_id": 10346,
           "city": "迪庆"
         }
       ]
     },
     {
-      "province_id": 31,
-      "province": "浙江",
+      "hhid": 31,
+      "city": "浙江",
       "cities": [
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10347,
           "city": "杭州"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10348,
           "city": "宁波"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10349,
           "city": "温州"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10350,
           "city": "嘉兴"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10351,
           "city": "湖州"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10352,
           "city": "绍兴"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10353,
           "city": "金华"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10354,
           "city": "衢州"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10355,
           "city": "舟山"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10356,
           "city": "台州"
         },
         {
-          "province_id": 31,
+          "hhid": 31,
           "city_id": 10357,
           "city": "丽水"
         }
       ]
     },
     {
-      "province_id": 32,
-      "province": "台湾",
+      "hhid": 32,
+      "city": "台湾",
       "cities": [
         {
-          "province_id": 32,
+          "hhid": 32,
           "city_id": 10358,
           "city": "台湾"
         }
       ]
     },
     {
-      "province_id": 33,
-      "province": "香港",
+      "hhid": 33,
+      "city": "香港",
       "cities": [
         {
-          "province_id": 33,
+          "hhid": 33,
           "city_id": 10359,
           "city": "香港"
         }
       ]
     },
     {
-      "province_id": 34,
-      "province": "澳门",
+      "hhid": 34,
+      "city": "澳门",
       "cities": [
         {
-          "province_id": 34,
+          "hhid": 34,
           "city_id": 10360,
           "city": "澳门"
         }

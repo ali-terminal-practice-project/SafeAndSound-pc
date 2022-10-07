@@ -2,15 +2,15 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import { useSearchParams, Outlet, Link } from "react-router-dom"
 import Header from "../../components/header"
-import MapComponent from "../../components/map/MapContainer"
 import './index.css'
 
 const Query = () => {
   const [params] = useSearchParams()
   const city = params.get('city')
+  const cityPoliceNum = params.get('cityNum')
+  const detail = params.get('detail')
 
   const [cityNum, setCityNum] = useState(0)
-  const [search, setSearch] = useState('hh')
 
   useEffect(() => {
     const getData = async () => {
@@ -27,16 +27,16 @@ const Query = () => {
         <div className="all-map">
           <div className="left-box">
             <div className="next-place">
-              您的下一个目的地为:
+              你的下一个目的地为：
               <div className="em-place">
-                {city}
+                {city}-{detail}
               </div>
             </div>
             <div className="item-box">
-              <Link to={`/query?city=${city}&cityNum=${cityNum}&setSearch=${setSearch}`} className="query-link">😷 疫情防控</Link>
+              <Link to={`/query?city=${city}&cityNum=${cityPoliceNum}&detail=${detail}`} className="query-link">😷 疫情防控</Link>
             </div>
             <div className="item-box">
-              <Link to={`/query/weather?city=${city}&cityNum=${cityNum}`} className="query-link">☁️ 出行贴士</Link>
+              <Link to={`/query/weather?city=${city}&&cityNumW=${cityNum}&detail=${detail}&cityNum=${cityPoliceNum}`} className="query-link">☁️ 出行贴士</Link>
             </div>
             <div className="item-box">
               <Link to={`/query/ticket?city=${city}&cityNum=${cityNum}`} className="query-link">🚗 购票跳转</Link>

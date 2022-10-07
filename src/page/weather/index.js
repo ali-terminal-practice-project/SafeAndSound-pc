@@ -5,50 +5,54 @@ import MapComponent from "../../components/map/MapContainer"
 import './index.css'
 
 const Weather = () => {
+  // 从父元素接收参数
   const [params] = useSearchParams()
   const city = params.get('city')
-  const cityNum = params.get('cityNum')
+  const cityNumW = params.get('cityNumW')
+
+  // 定义天气的各种状态
   const [weather, setWeather] = useState({})
   const [weather2, setWeather2] = useState({})
   const [lifeNum, setLifeNum] = useState([])
   const [local, setLocal] = useState('')
 
+  // 定位当前城市
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(success)
   }, [])
 
+  // 如果成功则发送请求获取数据
   const success = (pos) => {
     const getDate = async () => {
       const crd = pos.coords
       const la = crd.latitude.toFixed(2)
       const long = crd.longitude.toFixed(2)
-      // console.log(la)
-      // console.log(long)
       const res = await axios(`https://geoapi.qweather.com/v2/city/lookup?key=c84b6b2163c54e858f5358d77327ccc5&location=${long},${la}&range=cn`)
       setLocal(res.data.location[0].name)
-      // console.log(res)
     }
     getDate()
   }
 
+  // 获取查询地点的天气、生活指数
   useEffect(() => {
     const getData = async () => {
-      const res1 = await axios(`https://www.yiketianqi.com/free/day?appid=36374132&appsecret=JYU4GOcq&unescape=1&vue=1&cityid=${cityNum}`)
-      const res2 = await axios(`https://devapi.qweather.com/v7/indices/1d?location=${cityNum}&key=c84b6b2163c54e858f5358d77327ccc5&type=1,3,4,6,8,9,13,14,15,16`)
+      const res1 = await axios(`https://www.yiketianqi.com/free/day?appid=36374132&appsecret=JYU4GOcq&unescape=1&vue=1&cityid=${cityNumW}`)
+      const res2 = await axios(`https://devapi.qweather.com/v7/indices/1d?location=${cityNumW}&key=c84b6b2163c54e858f5358d77327ccc5&type=1,3,4,6,8,9,13,14,15,16`)
       console.log(res2)
       setWeather(res1.data)
       setLifeNum(res2.data.daily)
     }
     getData()
-  }, [cityNum])
+  }, [cityNumW])
 
+  // 查询当前地点的天气
   useEffect(() => {
     const getData = async () => {
       const res1 = await axios(`https://www.yiketianqi.com/free/day?appid=36374132&appsecret=JYU4GOcq&unescape=1&vue=1&city=${local}`)
       setWeather2(res1.data)
     }
     getData()
-  }, [cityNum])
+  }, [cityNumW])
 
   return (
     <div className="weather-all">
