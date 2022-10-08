@@ -8,6 +8,8 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
   height: 6vh;
   width: 20vw;
   font-size: 1.2rem;

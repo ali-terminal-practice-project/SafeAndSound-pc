@@ -5,6 +5,14 @@ import Header from '../../components/header'
 import './index.css'
 import cityNumList from './city-num.json'
 
+const contentStyle = {
+  height: '200px',
+  color: '#fff',
+  lineHeight: '200px',
+  textAlign: 'center',
+  background: '#cfcfcf',
+}
+
 const Home = () => {
   const navigate = useNavigate()
 
@@ -13,11 +21,13 @@ const Home = () => {
   const [detail, setDetail] = useState('')
 
   const goToQuery = () => {
-    navigate(`/query?city=${city}&cityNum=${cityNum}&detail=${detail}`)
+    if (city) {
+      navigate(`/query?city=${city}&cityNum=${cityNum}&detail=${detail}`)
+    }
   }
 
   const keyHandler = (e) => {
-    if (e.keyCode === 13) {
+    if (e.keyCode === 13 && city) {
       navigate(`/query?city=${city}&cityNum=${cityNum}&detail=${detail}`)
     }
   }
@@ -30,22 +40,25 @@ const Home = () => {
     setCityNum(selectedOptions[1].city_id)
   }
 
+  const filter = (inputValue, path) => path.some((option) => option.city.toLowerCase().indexOf(inputValue.toLowerCase()) > -1)
+
   return (
     <>
       <div className='home'>
         <Header />
         <div className="search">
-          <div className="tips"></div>
           <div className="wrapper">
             <div className="input-data">
               <Cascader
+                showSearch={{
+                  filter,
+                }}
                 size='large'
                 className='select-box'
                 fieldNames={{ label: 'city', value: 'city', children: 'cities' }}
                 options={options}
                 onChange={onChange}
                 placeholder="请选择你要去往的城市吧"
-                onSearch={(value) => console.log(value)}
                 onKeyUp={keyHandler}
               />
               <div className="underline"></div>

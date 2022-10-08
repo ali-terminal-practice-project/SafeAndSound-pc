@@ -52,7 +52,7 @@
   width: 29.7vw;
   height: 2.7vw;
   border: none;
-  font-size: 2vw;
+  font-size: 1.2vw;
   border-bottom: 2px solid #c0c0c0;
 }
 
@@ -110,4 +110,10 @@
 
 .select-box {
   width: 30vw;
+}
+
+.swiper {
+  margin-top: -5vw;
+  height: 20vw;
+  width: 33vw;
 }

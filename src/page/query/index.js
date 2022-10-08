@@ -39,10 +39,10 @@ const Query = () => {
               <Link to={`/query/weather?city=${city}&&cityNumW=${cityNum}&detail=${detail}&cityNum=${cityPoliceNum}`} className="query-link">☁️ 出行贴士</Link>
             </div>
             <div className="item-box">
-              <Link to={`/query/ticket?city=${city}&cityNum=${cityNum}`} className="query-link">🚗 购票跳转</Link>
+              <Link to={`/query/ticket?city=${city}&&cityNumW=${cityNum}&detail=${detail}&cityNum=${cityPoliceNum}`} className="query-link">🚗 购票跳转</Link>
             </div>
             <div className="item-box">
-              <Link to={`/query/accommodation?city=${city}&cityNum=${cityNum}`} className="query-link">🏠 住宿选择</Link>
+              <Link to={`/query/accommodation?city=${city}&&cityNumW=${cityNum}&detail=${detail}&cityNum=${cityPoliceNum}`} className="query-link">🏠 住宿选择</Link>
             </div>
           </div>
         </div>

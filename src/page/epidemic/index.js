@@ -109,21 +109,21 @@ const Epidemic = () => {
         </div>
       </div>
       {/* 高风险区域 */}
-      <div className='level-title'>高风险区域</div>
+      <div className='level-title'>⚠️ 高风险区域</div>
       {high.map((item) => {
         return (<div className='place' onClick={(e) => setFocus(e.target.innerText)}>
           {item}
         </div>)
       })}
       {/* 中风险区域 */}
-      <div className='level-title'>中风险区域</div>
+      <div className='level-title'>⚠️ 中风险区域</div>
       {middle.map((item) => {
         return (<div className='place' onClick={(e) => setFocus(e.target.innerText)}>
           {item}
         </div>)
       })}
       {/* 低风险区域 */}
-      <div className='level-title'>低风险区域</div>
+      <div className='level-title'>⚠️ 低风险区域</div>
       {low.map((item) => {
         return (<div className='place' onClick={(e) => setFocus(e.target.innerText)}>
           {item}
