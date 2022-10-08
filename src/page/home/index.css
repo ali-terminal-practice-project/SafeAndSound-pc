@@ -1,5 +1,5 @@
 .home {
-  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+  background-image: linear-gradient(236deg, #3d6b6310, #838cb1e3);
 }
 
 .search {
@@ -9,6 +9,68 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+.searchBox {
+  width: 20vw;
+  height: 60px;
+  position: absolute;
+  margin-top: 30px;
+  transition: 0.5s;
+  margin-left: 2vw;
+}
+
+.searchBox::before {
+  content: '';
+  position: absolute;
+
+  left: 46px;
+  width: 10px;
+  background: linear-gradient(rgb(240, 241, 242), #fff, #e3e3e3);
+  height: 100%;
+  z-index: 1;
+  filter: blur(1px);
+}
+
+.searchBox::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: -57px;
+  width: 10px;
+  height: 96%;
+  background: #9d9d9d;
+  z-index: 1;
+  filter: blur(1px);
+}
+
+.searchBox .searchButton {
+  left: 50px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-indent: 20px;
+  font-size: 1.1rem;
+  outline: none;
+  background: linear-gradient(#d5d4d9, #888d98);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15),
+    15px 15px 15px rgba(0, 0, 0, 0.15), 20px 20px 15px rgba(0, 0, 0, 0.1),
+    30px 30px 15px rgba(0, 0, 0, 0.1), inset 3px 3px 2px rgb(246, 246, 246);
+}
+
+.searchBox .searchButton::placeholder {
+  padding: 0px;
+}
+.searchBox .searchButton {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.828);
+}
+.searchBox img {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  right: 22px;
+  top: 5px;
 }
 
 .tips {
@@ -31,9 +93,9 @@
 .wrapper {
   width: 33vw;
   height: 12vw;
-  background-color: #fff;
+  background-color: rgba(237, 236, 236, 0.202);
   padding: 1.5vw;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.181);
   border-radius: 8px;
   border-style: solid;
   border-width: 0.1vw;
@@ -95,7 +157,7 @@
   height: 100%;
   width: 30vw;
   background: #2c2c2c;
-  color: #eeeeee;
+  color: #a6a6a6;
   text-align: center;
   font-size: 1.5vw;
   font-weight: bold;
@@ -116,4 +178,54 @@
   margin-top: -5vw;
   height: 20vw;
   width: 33vw;
+}
+.Light_text {
+  margin-left: 5vw;
+  margin-top: 5vw;
+  font-size: 6rem;
+  position: absolute;
+}
+
+.Light_text .Tr {
+  margin-left: -5vw;
+  font-style: normal;
+}
+.Light_text .Sa {
+  padding-left: -5vw;
+}
+.Light_text .And {
+  font-style: normal;
+  margin-left: -5vw;
+}
+
+.Light_text h2 {
+  color: #fdfdfd56;
+}
+.Light_text h2 text {
+  font-style: italic;
+}
+.Light_text h2:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.Light_text h2 span {
+  transition: 0.4s;
+}
+
+.Light_text h2:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.Light_text h2 span:nth-child(1)::after {
+  opacity: 0;
+}
+
+.Light_text h2:hover span {
+  color: rgba(62, 62, 62, 0.428);
+  text-shadow: 0 0 10px rgb(252, 252, 252), 0 0 20px rgb(189, 169, 169),
+    0 0 40px rgb(216, 214, 214), 0 0 80px rgb(216, 214, 214);
+}
+
+.Light_text .Light_text {
+  position: absolute;
 }

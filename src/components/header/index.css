@@ -1,8 +1,8 @@
 .header {
-  background-color: #2c2c2c;
+  background-color: #000000bc;
   height: 6vh;
   color: white;
-  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.528);
   display: flex;
   justify-content: space-between;
 }

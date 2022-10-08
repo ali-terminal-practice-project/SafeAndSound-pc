@@ -79,6 +79,7 @@
 
 .weather-com:hover {
   box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.1);
+  background-color: #bcb8b513;
 }
 
 .weather-city-title {
@@ -88,7 +89,7 @@
   transition: 0.2s;
   border-radius: 5vw;
   font-weight: 900;
-  background-color: #cd5555;
+  background-color: #c36a27c5;
   color: white;
 }
 

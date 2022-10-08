@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { Cascader } from 'antd'
-import Header from '../../components/header'
-import './index.css'
-import cityNumList from './city-num.json'
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
+import { Cascader } from "antd"
+import Header from "../../components/header"
+import "./index.css"
+import cityNumList from "./city-num.json"
 
 const contentStyle = {
   height: '200px',
@@ -16,9 +16,9 @@ const contentStyle = {
 const Home = () => {
   const navigate = useNavigate()
 
-  const [city, setCity] = useState('')
+  const [city, setCity] = useState("")
   const [cityNum, setCityNum] = useState(0)
-  const [detail, setDetail] = useState('')
+  const [detail, setDetail] = useState("")
 
   const goToQuery = () => {
     if (city) {
@@ -44,8 +44,20 @@ const Home = () => {
 
   return (
     <>
-      <div className='home'>
+      <div className="home">
         <Header />
+        <div class="Light_text">
+          <h2>
+            <text className="Tr">Traveling</text> <br />
+            <span>
+              <text className="Sa">Safe</text> <br />
+            </span>
+            <text className="And"> And</text>
+            <span>
+              <text className="So"> Sound</text>
+            </span>
+          </h2>
+        </div>
         <div className="search">
           <div className="wrapper">
             <div className="input-data">
@@ -53,16 +65,25 @@ const Home = () => {
                 showSearch={{
                   filter,
                 }}
-                size='large'
-                className='select-box'
-                fieldNames={{ label: 'city', value: 'city', children: 'cities' }}
+                size="large"
+                className="select-box"
+                fieldNames={{
+                  label: "city",
+                  value: "city",
+                  children: "cities",
+                }}
                 options={options}
                 onChange={onChange}
-                placeholder="请选择你要去往的城市吧"
+                placeholder="请选择你要去往的城市"
                 onKeyUp={keyHandler}
               />
               <div className="underline"></div>
-              <button className="btn-search" onClick={goToQuery}>查询</button>
+              <div class="searchBox">
+                <div class="shadow"></div>
+                <button class="searchButton" onClick={goToQuery}>
+                  查询
+                </button>
+              </div>
             </div>
           </div>
         </div>
