@@ -1,6 +1,6 @@
 .all {
   display: flex;
-  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+  background-image: linear-gradient(236deg, #a1f8e8, #acb6e5);
   height: 94vh;
 }
 
@@ -16,7 +16,7 @@
 .next-place {
   width: 25vw;
   height: 8.5vw;
-  background-color: #2e8b57;
+  background-color: #034345b8;
   color: white;
   font-size: 1.5rem;
   font-weight: 900;
@@ -41,11 +41,15 @@
   height: 3vw;
   background-color: white;
   align-items: center;
+  margin-top: 0.6vw;
   transition: 0.3s;
 }
 
 .item-box:hover {
   background-color: #dcdcdc;
+}
+.item-box:hover link {
+  font-size: 1.5rem;
 }
 
 .query-link {
